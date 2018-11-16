@@ -5,7 +5,7 @@ MAINTAINER Zohar Nyego <zoharngo@gmail.com>
 ENV TERM=xterm-256color
 
 # Set mirrors to NZ
-RUN sed -i "s/http:\/\/archive./http:\/\/nz.archive./g" /etc/apt/sources.list
+RUN sed -i "s/http:\/\/archive./http:\/\/il.archive./g" /etc/apt/sources.list
 
 # Install Ansible
 RUN apt-get update -qy && \
