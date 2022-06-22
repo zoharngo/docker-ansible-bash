@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM lscr.io/linuxserver/jellyfin:latest
 MAINTAINER Zohar Nyego <zoharngo@gmail.com>
 
 # Prevent dpkg errors
